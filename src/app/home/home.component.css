@@ -1,0 +1,57 @@
+
+
+h3{
+    line-height:1.5;
+    
+    }
+    .center{
+    margin:5rem auto;
+    }
+    .text-red{
+    color:#EE4F49;
+    }
+    .btn {
+      border-width: 2px;
+      padding: 10px 15px;
+    }
+    .bg-img{
+    
+    width: 100%;  
+    margin:auto;
+    display: block;
+    max-height: 315px;
+    
+    }
+     
+    @media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+    
+    .bg-img{
+    
+    width: 100%;  
+    margin:auto;
+    display: block;
+    max-height: 290px;
+    
+    }
+    } 
+    @media only screen and (min-device-width:768px){
+    
+    #goBackBtn{
+    margin:auto;
+    margin-bottom:40px;
+    margin-top:40px;
+    text-align:center; 
+    }
+    }
+    .btn-red-outline {
+        background-color: transparent;
+        border-color:#DA5554;
+        border-width: 2px;
+        box-shadow: none;
+    
+    }
+    .text-secondary {
+    
+        color: #7A7A7A;
+    }
+    
